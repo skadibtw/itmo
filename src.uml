@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/skadibtw/Documents/pokemon/src</OriginalElement>
+  <nodes>
+    <node x="-630.0" y="-3.0">Moves.Special.GrassWhistle</node>
+    <node x="-1612.0" y="-3.0">Moves.Special.SpacialRend</node>
+    <node x="-1060.0" y="148.0">Pokemons.Sewaddle</node>
+    <node x="-1199.75" y="-81.0">ru.ifmo.se.pokemon.SpecialMove</node>
+    <node x="-958.0" y="-3.0">Moves.Special.DreamEater</node>
+    <node x="-1610.0" y="148.0">Pokemons.Slowpoke</node>
+    <node x="-1464.0" y="148.0">Pokemons.Swadloon</node>
+    <node x="-740.5" y="70.0">ru.ifmo.se.pokemon.StatusMove</node>
+    <node x="-1175.0" y="148.0">Pokemons.Palkia</node>
+    <node x="-1447.0" y="-3.0">Moves.Special.Flamethrower</node>
+    <node x="-1118.0" y="-3.0">Moves.Special.EarthPower</node>
+    <node x="-744.0" y="148.0">Moves.Status.DoubleTeam</node>
+    <node x="-1318.0" y="148.0">Pokemons.Leavanny</node>
+    <node x="-1933.3577371048254" y="-3.0">Moves.Physical.AerialAce</node>
+    <node x="-1389.75" y="70.0">ru.ifmo.se.pokemon.Pokemon</node>
+    <node x="-1744.0" y="148.0">Pokemons.Slowbro</node>
+    <node x="-796.0" y="-3.0">Moves.Special.Thunderbolt</node>
+    <node x="-1269.0" y="-3.0">Moves.Special.EnergyBall</node>
+    <node x="-1949.3577371048254" y="-81.0">ru.ifmo.se.pokemon.PhysicalMove</node>
+    <node x="-1744.0" y="-3.0">Moves.Special.Blizzard</node>
+    <node x="-575.0" y="148.0">Moves.Status.Growl</node>
+    <node x="-888.0" y="148.0">Moves.Status.Withdraw</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Moves.Physical.AerialAce" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-1871.3577371048254" y="274.0" />
+      <point x="-1871.3577371048254" y="274.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Pokemons.Leavanny" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-1256.5" y="123.0" />
+      <point x="-1328.75" y="123.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Moves.Special.Blizzard" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-1688.0" y="-28.0" />
+      <point x="-1125.75" y="-28.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Pokemons.Sewaddle" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-996.5" y="123.0" />
+      <point x="-1328.75" y="123.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Pokemons.Swadloon" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-1401.0" y="123.0" />
+      <point x="-1328.75" y="123.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Moves.Special.Thunderbolt" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-723.0" y="-28.0" />
+      <point x="-1125.75" y="-28.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Moves.Special.EarthPower" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-1048.0" y="-28.0" />
+      <point x="-1125.75" y="-28.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Moves.Special.Flamethrower" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-1368.0" y="-28.0" />
+      <point x="-1125.75" y="-28.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Moves.Status.DoubleTeam" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Moves.Special.GrassWhistle" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-554.0" y="-28.0" />
+      <point x="-1125.75" y="-28.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Moves.Special.SpacialRend" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-1539.5" y="-28.0" />
+      <point x="-1125.75" y="-28.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Moves.Status.Growl" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-527.0" y="123.0" />
+      <point x="-669.5" y="123.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Pokemons.Slowpoke" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-1547.0" y="123.0" />
+      <point x="-1328.75" y="123.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Moves.Special.DreamEater" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-887.0" y="-28.0" />
+      <point x="-1125.75" y="-28.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Moves.Special.EnergyBall" target="ru.ifmo.se.pokemon.SpecialMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-1203.5" y="-28.0" />
+      <point x="-1125.75" y="-28.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Pokemons.Slowbro" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-1687.0" y="123.0" />
+      <point x="-1328.75" y="123.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Pokemons.Palkia" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-1127.5" y="123.0" />
+      <point x="-1328.75" y="123.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Moves.Status.Withdraw" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-826.0" y="123.0" />
+      <point x="-669.5" y="123.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5892156862745098" showDependencies="false" x="-899.0" y="133.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
