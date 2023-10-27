@@ -1,5 +1,4 @@
 import ru.ifmo.se.pokemon.Battle;
-import ru.ifmo.se.pokemon.Pokemon;
 import Pokemons.*;
 /*
 https://pokemondb.net/pokedex/slowpoke
