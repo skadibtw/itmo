@@ -87,8 +87,8 @@ cp zorua9 weezing9/cascoon
 chmod 537 weezing9/cascoon
 chmod 440 zorua9
 cat prinplup0 > weezing9/voltorbrinplup
+ls -lRh
 #part4
-
 #1
 chmod -R 500 electrode4
 chmod 500 granbull1/cacturne
@@ -131,7 +131,7 @@ chmod 700 prinplup0
 rm prinplup0
 chmod 700 granbull1/togetic
 rm granbull1/togetic
-rm -f Copy_30
+rm -f Copy_*
 
 
 
