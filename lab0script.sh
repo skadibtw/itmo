@@ -87,44 +87,22 @@ cp zorua9 weezing9/cascoon
 chmod 537 weezing9/cascoon
 chmod 440 zorua9
 cat prinplup0 > weezing9/voltorbrinplup
-ls -lRh
 #part4
-#1
-chmod -R 500 electrode4
-chmod 500 granbull1/cacturne
-chmod 500 granbull1/cacturneprinplup
-chmod 500 granbull1
-chmod 500 weezing9/staraptor
-chmod 500 weezing9/cascoon
-echo "1"
-wc -l $(ls -d **/^c | grep -v "/$") 2>/dev/null | sort -nk11 
-chmod 305 electrode4
-chmod 375 weezing9/staraptor
-chmod 664 petilil
-chmod 060 serperior
-chmod 404 timburr
-chmod 537 toxicroak
-chmod 576 zigzagoon
+echo "task 1"
+wc -l */c* 2>&1| grep -v "Is a directory" |sort -nk11 #ключ -n по увеличению числа, k11 по первому столбцу  wc -l количество строк в файле
 cd weezing9
-#2
-echo "2"
-ls -p | grep -v "/" | cat 2>&1 | sort
-#3
-echo "3"
-cat -n `ls -p | grep -v "/"`| grep -v "Permission denied" | sort
-#4
-echo "4"
-ls -Rlt | grep -v "Pe"
+echo "task 2"
+ls -p | grep -v "/" | cat 2>&1 | sort # ключ -p выводит / у директорий
+echo "task 3"
+cat -n `ls -p | grep -v "/"`| grep -v "Permission denied" | grep -vi "Pe" | sort  #-v все, кроме заданного выражения, -i - ignore case
+echo "task 4"
+ls -Rlt | grep -v "Permission denied" #-R рекурсивно -l вывести в длинном формате -t отсортировать по дате изменения (по возрастанию)
 cd ..
-#5
-echo "5"
+echo "task 5"
 cat -n zorua9 2>&1 | grep "l$" 
 cd granbull1
-#6
-echo "6"
-chmod 400 tynamo
-wc -m `ls -p | grep -v "/"` | sort
-chmod 005 tynamo 
+echo "task 6"
+wc -m `ls -p | grep -v "/"` | sort #wc -m выводит количество символов в каждой строке
 cd ..
 #part5
 chmod 700 prinplup0
@@ -132,6 +110,12 @@ rm prinplup0
 chmod 700 granbull1/togetic
 rm granbull1/togetic
 rm -f Copy_*
+chmod +rwx electrode4
+cd electrode4
+rm -f ~/lab0/electrode4/petililmagnezo*
+cd ..
+rm -rf electrode4
+rmdir weezing9/staraptor
 
 
 
