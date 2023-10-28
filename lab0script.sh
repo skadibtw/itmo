@@ -96,7 +96,7 @@ ls -p | grep -v "/" | cat 2>&1 | sort # ключ -p выводит / у дире
 echo "task 3"
 cat -n `ls -p | grep -v "/"`| grep -v "Permission denied" | grep -vi "Pe" | sort  #-v все, кроме заданного выражения, -i - ignore case
 echo "task 4"
-ls -Rlt | grep -v "Permission denied" #-R рекурсивно -l вывести в длинном формате -t отсортировать по дате изменения (по возрастанию)
+ls -Rlt| grep -v "Permission denied" #-R рекурсивно -l вывести в длинном формате -t отсортировать по дате изменения (по возрастанию)
 cd ..
 echo "task 5"
 cat -n zorua9 2>&1 | grep "l$" 
