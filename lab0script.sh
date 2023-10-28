@@ -5,32 +5,24 @@ rm -rf lab0
 #part1
 mkdir lab0
 cd lab0
-mkdir electrode4
+mkdir electrode4 granbull1 weezing9
 cd electrode4
 echo "satk=3 sdef=4 spd=4" > timburr
-mkdir zigzagoon 
-mkdir toxicroak
+mkdir zigzagoon toxicroak
 echo -e "Способности Overgrow\nChlorophyll Own Tempo" > petilil
 echo -e "Способности  Overgrow Chlorophyll\nRivalry" > serperior
 cd ..
-mkdir granbull1
 cd granbull1
-mkdir drifloon
+mkdir drifloon shedinja
 echo "Тип покемона GRASS DARK" > cacturne
-mkdir shedinja
 echo -e "weidth=7.1\nheight=24.0 atk=4 def=9" > togetic
 echo -e "Развитые способности\nLightningrod" > tynamo
 cd ..
 echo -e "Развитые способности\nAnalytic" > magnezone3
 echo -e "Способности  Growl Bubble Water Sport Peck Metal\nClaw Bubblebeam Bide Fury Attack Brine Whirlpool Drill Peck Hydro\Pump" >> prinplup0
-mkdir weezing9
 cd weezing9
-mkdir cascoon
-mkdir roggenrola
-mkdir meditite
+mkdir cascoon roggenrola meditite staraptor drifloon
 echo "Живет Urban" > voltorb
-mkdir staraptor
-mkdir drifloon
 cd ..
 echo -e "Способности  Dark Art Illusion\nPrankster" > zorua9
 #part2
