@@ -81,7 +81,7 @@ chmod 440 zorua9
 cat prinplup0 > weezing9/voltorbrinplup
 #part4
 echo "task 1"
-wc -l */c* 2>&1| grep -v "Is a directory" |sort -nk11 #ключ -n по увеличению числа, k11 по первому столбцу  wc -l количество строк в файле
+wc -l */c* */*/c* 2>&1| grep -v "Is a directory" |sort -nk11 #ключ -n по увеличению числа, k11 по первому столбцу  wc -l количество строк в файле
 cd weezing9
 echo "task 2"
 ls -p | grep -v "/" | cat 2>&1 | sort # ключ -p выводит / у директорий
