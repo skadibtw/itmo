@@ -1,0 +1,23 @@
+<timetable>
+	<lang> ru </lang>
+	<group> P3117 </group>
+	<day> Thursday </day>
+	<lessons>
+		<lesson1>
+			<time> 13:30-15:00 </time>
+			<room> 1404 </room>
+			<place> Kronverksky pr., d.49, lit.A </place>
+			<subject> History of Russian science and technology (лекция) </subject>
+			<teacher>  Belousov Aleksandr Sergeevich </teacher>
+			<lesson-format> Очный </lesson-format>
+		</lesson1>
+		<lesson2>
+			<time> 15:20-16:50 </time>
+			<room> 2201 </room>
+			<place> Kronverksky pr., d.49, lit.A </place>
+			<subject> History of Russian science and technology (лекция) </subject>
+			<teacher> Belousov Aleksandr Sergeevich </teacher>
+			<lesson-format> Очный </lesson-format>
+		</lesson2>
+	</lessons>
+</timetable>
