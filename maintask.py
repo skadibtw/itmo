@@ -15,16 +15,16 @@ for x in range(100):
         if i == len(x) - 1 or x[i + 1].strip()[:2] == '</':
             q = ''
         else:
-            q = ','  # comma if quotes aren't closing
+            q = ','
         if len(tag) > 2:
-            tag.pop()  # remove closing tag
+            tag.pop()
         if len(tag) == 1:
-            if tag[0][0] == '/':  # if it is closing tag
-                timetable.write('\t' * tab_counter + '}' + q + '\n')  # close, then <=> }, or }
-                tab_counter -= 1  # we collapsed => move 1 tab left
+            if tag[0][0] == '/':
+                timetable.write('\t' * tab_counter + '}' + q + '\n')
+                tab_counter -= 1
             else:
-                timetable.write('\t' * tab_counter + '"' + tag[0] + '": {\n')  # open, then <=> "object": {
-                tab_counter += 1  # we expanded => move 1 tab right
+                timetable.write('\t' * tab_counter + '"' + tag[0] + '": {\n')
+                tab_counter += 1
         else:
             timetable.write('\t' * tab_counter + '"' + tag[0] + '" : "' + tag[1] + '" ' + q + '\n')
 
